@@ -2,3 +2,60 @@
   margin: 0;
   padding: 0;
 }
+
+:root{
+  font-family: "Open Sans", serif;
+}
+h1{
+  font-size: 36px;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 28px;
+}
+
+#page{
+  margin: 80px 88px;
+}
+figcaption{
+  font-style: italic;
+}
+header{
+  color: #E1624F;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.locais{
+  border-radius: 28px;
+}
+
+h1, h2, h3{
+  font-weight: bold;
+}
+
+.ordem{
+  font-weight: bold;
+}
+div.subtopicos{
+  font-weight: bold;
+}
+
+.historia{
+  color: #0C51A7;
+  font-weight: bold;
+}
+.casais{
+  color: #591B98;
+  font-weight: bold;
+}
+.familias{
+  color: #E5245E;
+  font-weight: bold;
+}
+.orcamento{
+  color: #E95E10;
+  font-weight: bold;
+}
