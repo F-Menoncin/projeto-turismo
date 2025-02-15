@@ -1,35 +1,55 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  width: 1120px;
 }
 
 :root{
   font-family: "Open Sans", serif;
 }
+
+#page{
+  box-sizing: border-box;
+  margin: 80px 88px;
+}
+
 h1{
   font-size: 36px;
 }
+
 h2{
   font-size: 32px;
-}
-h3{
-  font-size: 28px;
+  margin-top: 2px;
 }
 
-#page{
-  margin: 80px 88px;
+h3, .ordem{
+  font-size: 28px;
+  padding: 10px;
 }
+
+.principal{
+  width: 1120px;
+}
+
 figcaption{
+  width: 1120;
   font-style: italic;
+  margin-top: 24px;
+  margin-bottom: 104px;
+  text-align: center;
 }
+
+
 header{
   color: #E1624F;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.locais{
+.principal{
   border-radius: 28px;
+  width: 100%;
 }
 
 h1, h2, h3{
@@ -38,6 +58,7 @@ h1, h2, h3{
 
 .ordem{
   font-weight: bold;
+  margin-bottom: 4px;
 }
 div.subtopicos{
   font-weight: bold;
@@ -46,6 +67,7 @@ div.subtopicos{
 .historia{
   color: #0C51A7;
   font-weight: bold;
+  margin-bottom: 48px;
 }
 .casais{
   color: #591B98;
@@ -58,4 +80,54 @@ div.subtopicos{
 .orcamento{
   color: #E95E10;
   font-weight: bold;
+  margin-bottom: 40px;
+}
+h1{
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+figcaption + header{
+  margin-top: 64px;
+}
+
+.inicial{
+  margin-bottom: 64px;
+}
+
+h2 + p{
+  margin-top: 8px;
+}
+
+.locais{
+  margin-bottom: 20px;
+  border-radius: 28px;
+  width: 100%;
+}
+
+li{
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #ffffff;
+}
+
+.final{
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 48px;
+}
+footer img{
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
 }
