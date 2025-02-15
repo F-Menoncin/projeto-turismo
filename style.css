@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 1120px;
+  /* width: 1120px; */
+  justify-content: center;
 }
 
 :root{
@@ -10,8 +11,12 @@
 }
 
 #page{
+  width: 1120px;
   box-sizing: border-box;
-  margin: 80px 88px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 88px;
+  margin-bottom: 137px;
 }
 
 h1{
@@ -128,6 +133,4 @@ footer{
 }
 footer img{
   vertical-align: middle;
-  height: 16px;
-  width: 16px;
 }
